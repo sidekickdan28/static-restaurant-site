@@ -199,8 +199,22 @@ body{
 	  .container .jumbotron {
 	  	margin-top: 30px;
 	  	padding: 0;
-
 	}
 
-
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+}
+/*** super extra small **//
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	
+	#menu-tile, #specials-tile{
+		width: 280px;
+		margin: 0 auto 15px;
+	}
 }
